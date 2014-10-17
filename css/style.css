@@ -1,0 +1,12 @@
+.menu a{
+    
+    text-decoration:none;
+}
+.active{
+    color:#c25522;
+    font-size:18px;
+}
+.main-menu{
+    color:#000;
+    font-size:14px;
+}
