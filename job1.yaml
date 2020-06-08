@@ -1,0 +1,6 @@
+- name: create instance
+  description: create new instance
+  loglevel: INFO
+  sequence:
+    commands:
+      - exec: /bin/bash whoami
