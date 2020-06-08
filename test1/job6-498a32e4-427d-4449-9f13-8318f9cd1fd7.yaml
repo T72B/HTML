@@ -10,7 +10,7 @@
   scheduleEnabled: true
   sequence:
     commands:
-    - exec: whoami
+    - exec: ls -l /
     keepgoing: false
     strategy: node-first
   uuid: 498a32e4-427d-4449-9f13-8318f9cd1fd7
