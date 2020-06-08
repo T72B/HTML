@@ -1,0 +1,17 @@
+- defaultTab: nodes
+  description: test 6
+  executionEnabled: true
+  id: 498a32e4-427d-4449-9f13-8318f9cd1fd7
+  loglevel: INFO
+  name: job5
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: whoami
+    keepgoing: false
+    strategy: node-first
+  uuid: 498a32e4-427d-4449-9f13-8318f9cd1fd7
+
