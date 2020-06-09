@@ -1,0 +1,16 @@
+- defaultTab: nodes
+  description: test create
+  executionEnabled: true
+  id: 61aa6225-acef-4871-8873-43f1f36b8c5b
+  loglevel: INFO
+  name: create instance
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: ls -l /bin
+    keepgoing: false
+    strategy: node-first
+  uuid: 61aa6225-acef-4871-8873-43f1f36b8c5b
