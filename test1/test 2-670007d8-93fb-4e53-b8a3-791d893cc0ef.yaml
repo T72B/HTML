@@ -1,0 +1,16 @@
+- defaultTab: nodes
+  description: test job 1
+  executionEnabled: true
+  id: 670007d8-93fb-4e53-b8a3-791d893cc0ef
+  loglevel: INFO
+  name: test 2
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: ls -l /home
+    keepgoing: false
+    strategy: node-first
+  uuid: 670007d8-93fb-4e53-b8a3-791d893cc0ef
